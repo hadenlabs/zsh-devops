@@ -5,7 +5,7 @@
 #
 
 # Name of this project
-name: base-template
+name: zsh-devops
 
 email:
   support: support@hadenlabs.com
@@ -17,16 +17,19 @@ email:
 license: 'LGPL-3.0'
 
 # Canonical GitHub repo
-github_repo: hadenlabs/base-template
+github_repo: hadenlabs/zsh-devops
 
 # Badges to display
 badges:
-  - name: GitHub release
-    image: https://img.shields.io/github/release/hadenlabs/base-template?style=flat-square
-    url: https://github.com/hadenlabs/base-template/releases/latest
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/zsh-devops
+    url: https://github.com/hadenlabs/zsh-devops/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code
-    url: https://github.com/hadenlabs/base-template/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-devops/lint-code
+    url: https://github.com/hadenlabs/zsh-devops/actions?workflow=lint-code
+  - name: pre-commit
+    image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    url: https://github.com/pre-commit/pre-commit
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
@@ -36,10 +39,10 @@ badges:
 
 description: |-
 
-  base-template for project
+  zsh-devops for project
 
   ### Replace name project to New Project
 
   ```bash
-    agr 'base-template' 'new-project'
+    agr 'zsh-devops' 'new-project'
   ```
