@@ -1,11 +1,21 @@
+<!-- Space: ZshDevOps -->
+<!-- Parent: Project -->
+<!-- Title: Troubleshooting -->
+
+<!-- Label: ZshDevOps -->
+<!-- Label: Project -->
+<!-- Label: Troubleshooting -->
+<!-- Include: docs/disclaimer.md -->
+<!-- Include: ac:toc -->
+
 # Troubleshooting
 
 ## Environment
 
-### Wrong pre-commit with pyenv
+### Wrong pre-commit with pipenv
 
 Execute the next:
 
 ```{.bash}
-make environment
+task environment
 ```
