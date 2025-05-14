@@ -15,7 +15,7 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-devops)](https://github.com/hadenlabs/zsh-devops/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-devops/lint-code)](https://github.com/hadenlabs/zsh-devops/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-devops)](https://github.com/hadenlabs/zsh-devops/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-devops/lint-code)](https://github.com/hadenlabs/zsh-devops/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-devops/ci)](https://github.com/hadenlabs/zsh-devops/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-devops/test)](https://github.com/hadenlabs/zsh-devops/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
 # zsh-devops
 
@@ -26,16 +26,15 @@ zsh-devops for project
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
 - [zsh-core](https://github.com/hadenlabs/zsh-core)
-
-* [python](https://www.python.org)
-* [taskfile](https://github.com/go-task/task)
+- [gomplate](https://github.com/hairyhenderson/gomplate)
+- [python](https://www.python.org)
+- [taskfile](https://github.com/go-task/task)
 
 ## Installation
 
-<!-- Space: ZshDevOps -->
-<!-- Parent: Project -->
-<!-- Title: Project Installation Oh-My-Zsh -->
-
+<!-- Space: Projects -->
+<!-- Parent: ZshDevOps -->
+<!-- Title: Installation Oh-My-Zsh ZshDevOps -->
 <!-- Label: ZshDevOps -->
 <!-- Label: Project -->
 <!-- Label: Installation -->
@@ -43,24 +42,23 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
-### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users
+### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) users
 
-If you're using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), install this plugin by doing the following:
+If you're using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), install this plugin by doing the following:
 
 1.  Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
 2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-devops`bash
 3.  Edit your `.zshrc` and add `plugins=( ... zsh-devops )` to your list of plugins
 4.  Open a new terminal and enjoy!
-    <!-- Space: ZshDevOps -->
-    <!-- Parent: Project -->
-    <!-- Title: Project Installation Antigen -->
-
-<!-- Label: ZshDevOps -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Label: Antigen -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
+    <!-- Space: Projects -->
+    <!-- Parent: ZshDevOps -->
+    <!-- Title: Installation Antigen ZshDevOps -->
+    <!-- Label: ZshDevOps -->
+    <!-- Label: Project -->
+    <!-- Label: Installation -->
+    <!-- Label: Antigen -->
+    <!-- Include: docs/disclaimer.md -->
+    <!-- Include: ac:toc -->
 
 ### [antigen](https://github.com/zsh-users/antigen) users
 
@@ -69,35 +67,58 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), install this pl
 1.  Add `antigen bundle hadenlabs/zsh-devops` to your `.zshrc` where you're adding your other plugins.
 2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-devops` in a running zsh session.
 3.  Enjoy!
-    <!-- Space: ZshDevOps -->
-    <!-- Parent: Project -->
-    <!-- Title: Project Installation Antibody -->
-
-<!-- Label: ZshDevOps -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
+    <!-- Space: Projects -->
+    <!-- Parent: ZshDevOps -->
+    <!-- Title: Installation Antibody ZshDevOps -->
+    <!-- Label: ZshDevOps -->
+    <!-- Label: Project -->
+    <!-- Label: Installation -->
+    <!-- Include: docs/disclaimer.md -->
+    <!-- Include: ac:toc -->
 
 ### [antibody](https://github.com/getantibody/antibody) users
 
 If you're using [Antibody](https://github.com/getantibody/antibody), install this plugin by doing the following:
 
-1.  Add :
+1. Add :
 
 ```{.sourceCode .bash}
-     antibody bundle hadenlabs/zsh-devops
+antibody bundle hadenlabs/zsh-devops
 ```
 
 to your `.zshrc` where you're adding your other plugins.
 
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-devops` in a running zsh session.
-3.  Enjoy!
+2. Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-devops` in a running zsh session.
+3. Enjoy!
 
- <!-- Space: ZshDevOps -->
-<!-- Parent: Project -->
-<!-- Title: Functions -->
+## Usage
 
+# 🚀 How to use this project
+
+```bash
+task setup
+```
+
+## Examples
+
+<!-- Space: Projects -->
+<!-- Parent: ZshDevOps -->
+<!-- Title: Examples ZshDevOps -->
+<!-- Label: Examples -->
+<!-- Include: ./../disclaimer.md -->
+<!-- Include: ac:toc -->
+
+## Common
+
+### Install Dependencies
+
+```bash
+task setup
+```
+
+ <!-- Space: Projects -->
+<!-- Parent: ZshDevOps -->
+<!-- Title: Functions ZshDevOps -->
 <!-- Label: Functions -->
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -118,22 +139,7 @@ File a GitHub [issue](https://github.com/hadenlabs/zsh-devops/issues).
 
 ## Contributing
 
-### Bug Reports & Feature Requests
-
-Please use the [issue tracker](https://github.com/hadenlabs/zsh-devops/issues) to report any bugs or file feature requests.
-
-### Development
-
-In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
-
-1.  **Fork** the repo on GitHub
-2.  **Clone** the project to your own machine
-3.  **Commit** changes to your own branch
-4.  **Push** your work back up to your fork
-
-5.  Submit a **Pull Request** so that we can review your changes
-
-**NOTE:** Be sure to rebase the latest changes from "upstream" before making a pull request!
+See [Contributing](./docs/contributing.md).
 
 ## Module Versioning
 
@@ -152,7 +158,7 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ## Copyright
 
-Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
+Copyright © 2018-2025 [Hadenlabs](https://hadenlabs.com)
 
 ## Trademarks
 

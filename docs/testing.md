@@ -1,12 +1,10 @@
-<!-- Space: ZshDevOps -->
-<!-- Parent: Project -->
-<!-- Title: Testing -->
-
-<!-- Label: Testing -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
-
 # Testing
+
+## Running all tests
+
+```bash
+task test
+```
 
 ## Running tests
 

@@ -1,9 +1,14 @@
-<!-- Space: ZshDevOps -->
-<!-- Parent: Project -->
-<!-- Title: Project Examples -->
-
+<!-- Space: Projects -->
+<!-- Parent: ZshDevOps -->
+<!-- Title: Examples ZshDevOps -->
 <!-- Label: Examples -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
-### common
+## Common
+
+### Install Dependencies
+
+```bash
+task setup
+```

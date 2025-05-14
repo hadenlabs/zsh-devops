@@ -1,18 +1,8 @@
-<!-- Space: ZshDevOps -->
-<!-- Parent: Project -->
-<!-- Title: Troubleshooting -->
-
-<!-- Label: ZshDevOps -->
-<!-- Label: Project -->
-<!-- Label: Troubleshooting -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
-
 # Troubleshooting
 
 ## Environment
 
-### Wrong pre-commit with pipenv
+### Wrong pre-commit with poetry
 
 Execute the next:
 

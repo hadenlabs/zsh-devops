@@ -15,6 +15,9 @@ ZSH_DEVOPS_PATH=$(dirname "${0}")
 source "${ZSH_DEVOPS_PATH}"/config/main.zsh
 
 # shellcheck source=/dev/null
+source "${ZSH_DEVOPS_PATH}"/core/main.zsh
+
+# shellcheck source=/dev/null
 source "${ZSH_DEVOPS_PATH}"/internal/main.zsh
 
 # shellcheck source=/dev/null

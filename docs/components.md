@@ -1,11 +1,10 @@
-<!-- Space: ZshDevOps -->
-<!-- Parent: Project -->
-<!-- Title: Components -->
-
+<!-- Space: Projects -->
+<!-- Parent: ZshDevOps -->
+<!-- Title: Components ZshDevOps -->
 <!-- Label: ZshDevOps -->
 <!-- Label: Project -->
 <!-- Label: Components -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
-# components
+# Components
