@@ -19,5 +19,3 @@ function devops::internal::main::factory {
 }
 
 devops::internal::main::factory
-
-if ! core::exists packer; then core::install packer; fi
