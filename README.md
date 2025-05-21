@@ -46,35 +46,35 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 
 If you're using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), install this plugin by doing the following:
 
-1.  Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
-2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-devops`bash
-3.  Edit your `.zshrc` and add `plugins=( ... zsh-devops )` to your list of plugins
-4.  Open a new terminal and enjoy!
-    <!-- Space: Projects -->
-    <!-- Parent: ZshDevOps -->
-    <!-- Title: Installation Antigen ZshDevOps -->
-    <!-- Label: ZshDevOps -->
-    <!-- Label: Project -->
-    <!-- Label: Installation -->
-    <!-- Label: Antigen -->
-    <!-- Include: docs/disclaimer.md -->
-    <!-- Include: ac:toc -->
+1. Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
+2. Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-devops`bash
+3. Edit your `.zshrc` and add `plugins=( ... zsh-devops )` to your list of plugins
+4. Open a new terminal and enjoy!
+   <!-- Space: Projects -->
+   <!-- Parent: ZshDevOps -->
+   <!-- Title: Installation Antigen ZshDevOps -->
+   <!-- Label: ZshDevOps -->
+   <!-- Label: Project -->
+   <!-- Label: Installation -->
+   <!-- Label: Antigen -->
+   <!-- Include: docs/disclaimer.md -->
+   <!-- Include: ac:toc -->
 
 ### [antigen](https://github.com/zsh-users/antigen) users
 
 If you're using [Antigen](https://github.com/zsh-users/antigen), install this plugin by doing the following:
 
-1.  Add `antigen bundle hadenlabs/zsh-devops` to your `.zshrc` where you're adding your other plugins.
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-devops` in a running zsh session.
-3.  Enjoy!
-    <!-- Space: Projects -->
-    <!-- Parent: ZshDevOps -->
-    <!-- Title: Installation Antibody ZshDevOps -->
-    <!-- Label: ZshDevOps -->
-    <!-- Label: Project -->
-    <!-- Label: Installation -->
-    <!-- Include: docs/disclaimer.md -->
-    <!-- Include: ac:toc -->
+1. Add `antigen bundle hadenlabs/zsh-devops` to your `.zshrc` where you're adding your other plugins.
+2. Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-devops` in a running zsh session.
+3. Enjoy!
+   <!-- Space: Projects -->
+   <!-- Parent: ZshDevOps -->
+   <!-- Title: Installation Antibody ZshDevOps -->
+   <!-- Label: ZshDevOps -->
+   <!-- Label: Project -->
+   <!-- Label: Installation -->
+   <!-- Include: docs/disclaimer.md -->
+   <!-- Include: ac:toc -->
 
 ### [antibody](https://github.com/getantibody/antibody) users
 
